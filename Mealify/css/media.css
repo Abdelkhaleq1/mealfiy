@@ -1,0 +1,437 @@
+/* Styles for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+.home{
+    height: fit-content;
+    padding-bottom: 20px;
+}
+    .home .container{
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+.home .container .content {
+width: 100%;
+text-align: center;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.home .img {
+ width: 100%;
+}
+
+/* ============== chefs  ==========*/
+.chefs .cards{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: flex-start; */
+}
+.chefs .card{
+    width: 100%;
+    margin-bottom:20px ;
+}
+.shape {
+position: absolute;
+    left: 0;
+    bottom: 120px;
+    width: 100%;
+    height: 4.75rem;
+}
+
+/* ============== gallery  ==========*/
+.gallery .gallery-imgs{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: auto;
+}
+
+.gallery .gallery-imgs .img{
+width: 100%;
+margin-bottom: 20px;
+
+}
+
+/* ============== contact  ==========*/
+
+.contact-cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.card-contact{
+    width: 100%;
+}
+.form .name,
+.subject,
+.msg {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.form {
+    background-color: #fff;
+    margin-top: 20px;
+    box-shadow: 1px 0px 10px rgb(181, 172, 172);
+    height: 34rem;
+}
+.form .name input{
+    width: 95%;
+}
+.form .subject input{
+        width: 95%;
+}
+.form  input , textarea{
+    width: 95%;
+    margin: auto;
+}
+.form .msg textarea{
+    width: 95%;
+}
+
+.footer{
+    height: fit-content;
+}
+.footer .section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer .mealify{
+    width: 100%;
+    margin-top: 15px;
+}
+.footer .subs{
+        width: 100%;
+            margin-top: 15px;
+}
+.footer .get{
+            width: 100%;
+                margin-top: 15px;
+}
+.subs .subs-content .subs-icone{
+    width: 100%;
+    margin-left: 0;
+}
+.subs .e-inpt {
+    width: 100%;
+    height: 40px;
+    margin: 15px 0 15px;
+}
+}
+
+
+
+
+
+
+
+
+
+/* Styles for screens between 768px and 1024px */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .home {
+            height: fit-content;
+            padding-bottom: 20px;
+        }
+    
+        .home .container {
+            display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap;
+        }
+    
+        .home .container .content {
+            width: 90%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    
+        .home .img {
+            width: 90%;
+        }
+    
+        /* ============== chefs  ==========*/
+        .chefs .cards {
+            display: flex;
+            flex-wrap: wrap;
+            /* align-items: flex-start; */
+        }
+    
+        .chefs .card {
+            width: 49%;
+            margin: 0 5px 20px 0;
+        }
+    
+        .shape {
+            position: absolute;
+            left: 0;
+            bottom: 120px;
+            width: 100%;
+            height: 4.75rem;
+        }
+    
+        /* ============== gallery  ==========*/
+        .gallery .gallery-imgs {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            flex-direction: column;
+            height: 110rem;
+        }
+    
+        .gallery .gallery-imgs .img {
+            width: 50%;
+            margin: 5px;
+    
+        }
+    
+        /* ============== contact  ==========*/
+    
+        .contact-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+    
+        .card-contact {
+            width: 47%;
+            margin: 10px;
+        }
+    
+        .form .name,
+        .subject,
+        .msg {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+    
+        .form {
+            background-color: #fff;
+            margin-top: 20px;
+            box-shadow: 1px 0px 10px rgb(181, 172, 172);
+            height: 34rem;
+        }
+    
+        .form .name input {
+            width: 95%;
+        }
+    
+        .form .subject input {
+            width: 95%;
+        }
+    
+        .form input,
+        textarea {
+            width: 95%;
+            margin: auto;
+        }
+    
+        .form .msg textarea {
+            width: 95%;
+        }
+    
+        .footer {
+            height: fit-content;
+        }
+    
+        .footer .section {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .footer .mealify {
+            width: 50%;
+            margin-top: 15px;
+            order: 1;
+        }
+    
+        .footer .subs {
+            width: 100%;
+            margin: 15px 0 ;
+            order: 3;
+        }
+    
+        .footer .get {
+            width: 50%;
+            margin-top: 15px;
+            order: 2;
+        }
+    
+        .subs .subs-content .subs-icone {
+            width: 100%;
+            margin-left: 0;
+        }
+    
+        .subs .e-inpt {
+            width: 100%;
+            height: 40px;
+            margin: 15px 0 15px;
+        }
+
+
+    /* CSS rules for medium-sized screens */
+}
+
+/* Styles for screens larger than 1024px */
+@media screen and (min-width: 1024px) and (max-width: 1500px){
+
+        .home {
+                height: fit-content;
+                padding-bottom: 20px;
+            }
+        
+            .home .container {
+                display: flex;
+                flex-wrap: wrap;
+
+            }
+        
+            .home .container .content {
+                width: 50%;
+                text-align: center;
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+        
+            .home .img {
+                width: 50%;
+            }
+        
+            /* ============== chefs  ==========*/
+            .chefs .cards {
+                display: flex;
+                flex-wrap: wrap;
+            }
+        
+            .chefs .card {
+                width: 32%;
+                /* margin: 0 5px 20px 0; */
+            }
+        
+            .shape {
+                position: absolute;
+                left: 0;
+                bottom: 120px;
+                width: 100%;
+                height: 4.75rem;
+            }
+        
+            /* ============== gallery  ==========*/
+            .gallery .gallery-imgs {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                flex-direction: column;
+                height: 65rem;
+            }
+        
+            .gallery .gallery-imgs .img {
+                width: 33.3%;
+                margin: 5px;
+        
+            }
+        
+            /* ============== contact  ==========*/
+        
+            .contact-cards {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: flex-start;
+            }
+        
+            .card-contact {
+                width: 47%;
+                margin: 10px;
+            }
+        
+            .form .name,
+            .subject,
+            .msg {
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+            }
+        
+            .form {
+                background-color: #fff;
+                margin-top: 20px;
+                box-shadow: 1px 0px 10px rgb(181, 172, 172);
+                height: 34rem;
+            }
+        
+            .form .name input {
+                width: 95%;
+            }
+        
+            .form .subject input {
+                width: 95%;
+            }
+        
+            .form input,
+            textarea {
+                width: 95%;
+                margin: auto;
+            }
+        
+            .form .msg textarea {
+                width: 95%;
+            }
+        /* ============= footer ============= */
+            .footer {
+                height: fit-content;
+            }
+        
+            .footer .section {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+            }
+        
+            .footer .mealify {
+                width: 50%;
+                margin-top: 15px;
+                order: 1;
+            }
+        
+            .footer .subs {
+                width: 100%;
+                margin: 15px 0;
+                order: 3;
+            }
+        
+            .footer .get {
+                width: 50%;
+                margin-top: 15px;
+                order: 2;
+            }
+        
+            .subs .subs-content .subs-icone {
+                width: 29%;
+                margin-left: 0;
+            }
+        
+            .subs .e-inpt {
+                width: 70%;
+                height: 40px;
+                margin: 0 5px 0 0;
+            }
+    /* CSS rules for larger screens */
+   
+}
