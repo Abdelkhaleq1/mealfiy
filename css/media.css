@@ -35,9 +35,9 @@ flex-wrap: wrap;
 .shape {
 position: absolute;
     left: 0;
-    bottom: 125px;
+    bottom: 126px;
     width: 100%;
-    height: 4.75rem;
+    height: 80px;
 }
 
 /* ============== gallery  ==========*/
